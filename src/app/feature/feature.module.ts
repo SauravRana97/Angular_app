@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { FeatureRoutingModule } from './feature-routing.module';
-import { HomeComponent } from './home/home.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { ContactComponent } from './contact/contact.component';
-import { SettingComponent } from './setting/setting.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { SettingsComponent } from './components/settings/settings.component';
 
 
 @NgModule({
@@ -13,7 +13,7 @@ import { SettingComponent } from './setting/setting.component';
     HomeComponent,
     AboutUsComponent,
     ContactComponent,
-    SettingComponent
+    SettingsComponent
   ],
   imports: [
     CommonModule,
